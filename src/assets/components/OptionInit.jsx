@@ -48,19 +48,11 @@ const Optioninit=()=>{
   recognition.onerror = function (event) {
     console.log('Error occurred in recognition: ' + event.error);
   };
-  // const botonVoz = document.getElementById('escuchar')
-  // botonVoz.addEventListener('click', function(){
-  //     recognition.start();
-
-  // });
-
-  function simulateClick(event) {
-    console.log("simulateClick");
-  }
+ 
   return(
    < Fragment >
    <div className="container-option">
-        <Header to="/" name="categorías"/>
+        <Header to="/" name="Inicio"/>
 
         <p>Por favor, seleccione la acción que desea realizar.</p>
         <div className="category">
@@ -68,10 +60,8 @@ const Optioninit=()=>{
           <Link to ="/RegistroDeCuenta" id="registrar-cuenta" className="subCategory">Registrar Cuenta</Link>
           <Link to="/CuentasRegistradas" id="cuentas-registradas" className="subCategory">Cuentas Registradas</Link>
         </div>
-       <Microphone/>
+        <button className="btn-volume" onClick={recognition.start()}><i class="fas fa-microphone fa-7x"></i></button>
    </div>
-  
-
    </Fragment>
 
   )

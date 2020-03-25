@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import "../components/acces.css";
+import "../components/Acces.css";
 import {  Link } from "react-router-dom";
 
 import Navigation from '../components/Navigation.jsx';

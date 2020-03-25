@@ -1,0 +1,7 @@
+.btn-arrow{
+    box-sizing: border-box;
+    border: 1px solid #FFFFFF;
+    background-color: black;
+    padding: 1em;
+    width: 50%;
+}

@@ -13,7 +13,7 @@
     display: flex;
     flex-direction: column;
     padding:10px;
-    width: 90%;
+    width: 99%;
     font-size:20px ;
 
 }
@@ -22,4 +22,10 @@
     box-sizing: border-box;
     border: 1px solid #FFFFFF;
     
+}
+.containerOne{
+    background-color: black;
+    width:360px ;
+    height: 100%;
+    color: white;
 }

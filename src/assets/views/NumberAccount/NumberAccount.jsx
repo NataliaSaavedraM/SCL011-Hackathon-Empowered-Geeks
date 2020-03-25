@@ -7,7 +7,8 @@ import { Link } from "react-router-dom";
 
 const NumberAccount = () => {
 return(
-  <Fragment className="containerOne">
+  <Fragment >
+    <div className="containerOne">
 <Header to="/" name="Busqueda por voz"/>
 <p>Por favor, indica el numero de la cuenta</p>
 
@@ -22,6 +23,7 @@ return(
         <Link to="/"><img src={buscar}  alt="buscar" /></Link>
         </button>  
      <Microphone/> 
+     </div>
   </Fragment>
 
 )

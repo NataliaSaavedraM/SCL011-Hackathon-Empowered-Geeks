@@ -64,7 +64,7 @@ const Register =()=>{
         to="/RegistroDatosPersonales"   img={microfono}
         too="/" namee="Guardar"/>
 
-       
+
 
       </div>
 
